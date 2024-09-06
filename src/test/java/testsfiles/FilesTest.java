@@ -52,7 +52,7 @@ public class FilesTest {
 
   @Test
   void pdfFilesTest() throws Exception {
-    File file = FileResearchInZip("pdffile.pdf", "AllFile.zip", "src/test/resources/output");
+    File file = FileResearchInZip("pdffile.pdf", "AllFile.zip", "src/test/resources/savefile");
     PDF pdf = new PDF(file);
     assertEquals(
         "Stefan Bechtold, Sam Brannen, Johannes Link, Matthias Merdes, Marc Philipp, Juliette de Rancourt, Christian Stein",
